@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QWorkOutsPerWeek">
+
+    <include
+        android:id="@+id/bottombar"
+        layout="@layout/question_defualt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/Question9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Question9"
+        />
+
+    <RadioGroup
+
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/login_background"
+
+        android:layout_below="@+id/Question9"
+        >
+
+        <RadioButton
+            android:id="@+id/OneWorkOutPerWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/OneWorkOutPerWeek" />
+
+        <RadioButton
+            android:id="@+id/TwoWorkOutPerWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/TwoWorkOutPerWeek" />
+
+        <RadioButton
+            android:id="@+id/ThreeWorkOutPerWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/ThreeWorkOutPerWeek" />
+
+        <RadioButton
+            android:id="@+id/FourWorkOutPerWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/FourWorkOutPerWeek" />
+
+        <RadioButton
+            android:id="@+id/FiveWorkOutPerWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/FiveWorkOutPerWeek" />
+        <RadioButton
+            android:id="@+id/SixWorkOutPerWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/SixWorkOutPerWeek" />
+        <RadioButton
+            android:id="@+id/SevenWorkOutPerWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/SevenWorkOutPerWeek" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/NumberOfWorkouts_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_margin="2dp"
+        android:text="@string/NumberOfWorkouts_button" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below= "@+id/NumberOfWorkouts_button"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:progress="73"
+        android:id="@+id/NumberOfWorkouts_ProgressBar"
+        />
+
+    <TextView
+        android:id="@+id/ProgressPercentage"
+        android:layout_width="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below= "@+id/NumberOfWorkouts_ProgressBar"
+        android:gravity="center"
+        android:text="@string/ProgressBarPercentage_NumberOfWorkouts"
+        />
+
+
+</RelativeLayout>

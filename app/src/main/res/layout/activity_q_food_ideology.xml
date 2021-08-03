@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QFoodIdeology">
+
+    <include
+        android:id="@+id/bottombar"
+        layout="@layout/question_defualt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/Question12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Question12"
+
+        />
+
+    <RadioGroup
+
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/login_background"
+        android:layout_below="@+id/Question12"
+        android:layout_marginTop="5dp"
+       >
+
+        <RadioButton
+            android:id="@+id/NoProblem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/NoProblem" />
+
+        <RadioButton
+            android:id="@+id/NoCarbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/NoCarbs" />
+
+        <RadioButton
+            android:id="@+id/NoFats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/NoFats" />
+
+        <RadioButton
+            android:id="@+id/Vegetarian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Vegetarian" />
+
+        <RadioButton
+            android:id="@+id/Vegan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Vegan" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Ideology_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_margin="2dp"
+
+        android:text="@string/Ideology_button" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below= "@+id/Ideology_button"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:progress="87"
+        android:id="@+id/Ideology_ProgressBar"
+        />
+
+    <TextView
+        android:id="@+id/ProgressPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_below= "@+id/Ideology_ProgressBar"
+        android:gravity="center"
+        android:text="@string/ProgressBarPercentage_Ideology"
+        />
+
+</RelativeLayout>

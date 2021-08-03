@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".QFinish">
+
+    <ImageButton
+        android:id="@+id/Finish_button"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/thumbs_up_all_might"
+        android:text="@string/Finish_button"
+        />
+
+    <TextView
+        android:id="@+id/Finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="87dp"
+        android:gravity="center"
+        android:text="@string/Finish"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        />
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below= "@+id/Finish"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:progress="100"
+        android:id="@+id/Finish_ProgressBar"
+        />
+
+    <TextView
+        android:id="@+id/ProgressPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_below= "@+id/Finish_ProgressBar"
+        android:gravity="center"
+        android:text="@string/ProgressBarPercentage_Finish"
+        />
+</RelativeLayout>

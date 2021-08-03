@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QTrainingStyle">
+
+    <include
+        android:id="@+id/bottombar"
+        layout="@layout/question_defualt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/Question8"
+        android:layout_width="match_parent"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Question8" />
+
+    <RadioGroup
+
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/login_background"
+        android:layout_below="@+id/Question8">
+
+        <RadioButton
+            android:id="@+id/FullBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/FullBody" />
+
+        <RadioButton
+            android:id="@+id/BroSplit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/BroSplit" />
+
+        <RadioButton
+            android:id="@+id/PushPull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/PushPull" />
+
+        <RadioButton
+            android:id="@+id/UpperLower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/UpperLower" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Style_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerVertical="true"
+        android:layout_margin="2dp"
+
+        android:text="@string/Style_button" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below= "@+id/Style_button"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:progress="60"
+        android:id="@+id/Style_ProgressBar"
+        />
+
+    <TextView
+        android:id="@+id/ProgressPercentage"
+        android:layout_width="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below= "@+id/Style_ProgressBar"
+        android:gravity="center"
+        android:text="@string/ProgressBarPercentage_Style"
+        />
+
+</RelativeLayout>

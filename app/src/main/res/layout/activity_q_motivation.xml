@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QMotivation_Seriousness">
+    <include
+        android:id="@+id/bottombar"
+        layout="@layout/question_defualt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <EditText
+        android:id="@+id/Fill_Motivation"
+        android:layout_width="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/Motivation_button"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="                   (1-10)"
+        android:text="@string/Fill_Motivation" />
+
+
+
+    <TextView
+        android:id="@+id/Question11"
+        android:layout_width="match_parent"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Question11"
+        />
+    <TextView
+        android:id="@+id/Index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Question11"
+        android:text="@string/Index"
+        />
+    <TextView
+        android:id="@+id/Index_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Index"
+        android:text="@string/Index_1"
+        />
+    <TextView
+        android:id="@+id/Index_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Index_1"
+
+        android:text="@string/Index_10"
+        />
+
+
+    <Button
+        android:id="@+id/Motivation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="2dp"
+        android:text="@string/Motivation_button" />
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below= "@+id/Motivation_button"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:progress="80"
+        android:id="@+id/Motivation_ProgressBar"
+        />
+
+    <TextView
+        android:id="@+id/ProgressPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_below= "@+id/Motivation_ProgressBar"
+        android:gravity="center"
+        android:text="@string/ProgressBarPercentage_Motivation"
+        />
+
+</RelativeLayout>

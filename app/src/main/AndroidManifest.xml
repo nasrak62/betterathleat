@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.betterathleat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BasicUserInfo"></activity>
+        <activity android:name=".CreateYourOwnMenu" />
+        <activity android:name=".DeleteFood" />
+        <activity android:name=".CreateNewFood" />
+        <activity android:name=".MealsOptionsMenu" />
+        <activity android:name=".FoodMenu" />
+        <activity android:name=".CreateNewExercise" />
+        <activity android:name=".OwnProgramOptionsMenu" />
+        <activity android:name=".CreateYourOwnProgram" />
+        <activity android:name=".ProgramOptions" />
+        <activity android:name=".MFinger1" />
+        <activity android:name=".Help" />
+        <activity android:name=".QName" />
+        <activity
+            android:name=".AdvancedUserInfo"
+            android:label="@string/title_activity_question_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AreYouSure" />
+        <activity android:name=".MFinger" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QAge"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QWeight"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QHeight"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QGoal"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QExp"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QLiftRecord"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QRepRange"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QWorkOutsPerWeek"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QPastProgramNum"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QMotivation_Seriousness"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QFoodIdeology"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QLikedFoods"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QFinish"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TheProgramPage"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QTrainingStyle"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

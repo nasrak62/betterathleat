@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/defualt_question_background"
+    tools:context=".DeleteFood">
+
+    <TextView
+        android:id="@+id/DeleteFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:text="@string/DeleteFood"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/DeleteFoodAutoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DeleteFoodButtonLayout1"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="2dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DeleteFoodButtonLayout2"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/DeleteFoodButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/main_menu_button"
+                android:gravity="center"
+                android:text="@string/DeleteFoodButton"
+                />
+
+            <Button
+                android:id="@+id/AddNewFoodButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/main_menu_button"
+                android:gravity="center"
+                android:text="@string/AddNewFoodButton"
+                />
+
+            <Button
+                android:id="@+id/Main_Menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/main_menu_button"
+                android:gravity="center"
+                android:text="@string/Main_Menu"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

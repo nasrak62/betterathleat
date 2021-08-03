@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QExp">
+
+    <include
+        android:id="@+id/bottombar"
+        layout="@layout/question_defualt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/Question5"
+        android:layout_width="match_parent"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Question5"
+       />
+
+    <RadioGroup
+
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:background="@drawable/login_background"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/Experience_button"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/NoExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/NoExp" />
+
+        <RadioButton
+            android:id="@+id/OneToSixMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/OneToSixMonth" />
+
+        <RadioButton
+            android:id="@+id/SixMonthToYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/SixMonthToYear" />
+
+        <RadioButton
+            android:id="@+id/YeartoTwoYears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/YeartoTwoYears" />
+
+        <RadioButton
+            android:id="@+id/TwoYearsToThreeYears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/TwoYearsToThreeYears" />
+
+        <RadioButton
+            android:id="@+id/MoreThenThreeYears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/MoreThenThreeYears" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Experience_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/Experience_button" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_below= "@+id/Experience_button"
+        android:layout_centerHorizontal="true"
+        android:progress="40"
+        android:id="@+id/Experience_ProgressBar"
+        />
+
+    <TextView
+        android:id="@+id/ProgressPercentage"
+        android:layout_width="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below= "@+id/Experience_ProgressBar"
+        android:gravity="center"
+        android:text="@string/ProgressBarPercentage_Experience"
+        />
+
+
+</RelativeLayout>

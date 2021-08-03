@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundtest1"
+    tools:context=".OwnProgramOptionsMenu">
+
+    <TextView
+        android:id="@+id/GenerateForProgram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/GenerateForProgram"
+
+        />
+    <LinearLayout
+        android:id="@+id/GenerateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/GenerateForProgram"
+        >
+        <Button
+            android:id="@+id/CreateNewProgramButton"
+            android:layout_width="match_parent"
+            android:background="@drawable/main_menu_button"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/CreateNewProgramButton"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/Explanation_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/main_menu_button"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/GenerateLayout"
+        android:text="@string/Explanation_button"
+        />
+    <Button
+        android:id="@+id/GoBackToProgramPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/main_menu_button"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/Explanation_button"
+        android:text="@string/GoBackToProgramPage"
+        />
+
+</RelativeLayout>
+
+
+

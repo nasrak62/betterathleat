@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QLiftRecord">
+
+    <include
+        android:id="@+id/bottombar"
+        layout="@layout/question_defualt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/Question6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Question6"
+       />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@+id/Question6"
+        android:layout_marginBottom="200dp"
+>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RadioGroup
+
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/login_background"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/Pound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Lb" />
+
+            <RadioButton
+                android:id="@+id/Kg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Kg" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/BenchPress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="@drawable/bright_color_text_for_dark_background"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/radioGroup"
+            android:text="@string/BenchPress" />
+
+        <EditText
+            android:id="@+id/Fill_BenchPress"
+            android:layout_width="match_parent"
+            android:hint="Enter Number"
+            android:padding="3dp"
+            android:background="@drawable/login_background"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_below="@+id/BenchPress"
+            android:text="@string/Fill_BenchPress" />
+        <TextView
+            android:id="@+id/Squat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="@drawable/bright_color_text_for_dark_background"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/Fill_BenchPress"
+            android:text="@string/Squat" />
+
+        <EditText
+            android:id="@+id/Fill_Squat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Number"
+            android:padding="3dp"
+            android:background="@drawable/login_background"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_below="@+id/Squat"
+            android:text="@string/Fill_Squat" />
+        <TextView
+            android:id="@+id/ShoulderPress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="@drawable/bright_color_text_for_dark_background"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/Fill_Squat"
+            android:text="@string/ShoulderPress" />
+
+        <EditText
+            android:id="@+id/Fill_ShoulderPress"
+            android:padding="3dp"
+            android:background="@drawable/login_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Number"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_below="@+id/ShoulderPress"
+            android:text="@string/Fill_ShoulderPress" />
+        <TextView
+            android:id="@+id/Deadlift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="@drawable/bright_color_text_for_dark_background"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/Fill_ShoulderPress"
+            android:text="@string/Deadlift" />
+
+        <EditText
+            android:id="@+id/Fill_Deadlift"
+            android:layout_width="match_parent"
+            android:padding="3dp"
+            android:background="@drawable/login_background"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter Number"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_below="@+id/Deadlift"
+            android:text="@string/Fill_Deadlift" />
+        <TextView
+            android:id="@+id/PullUps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="@drawable/bright_color_text_for_dark_background"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/Fill_Deadlift"
+            android:text="@string/PullUps" />
+
+        <EditText
+            android:id="@+id/Fill_PullUps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="@drawable/login_background"
+            android:layout_centerHorizontal="true"
+            android:hint="Enter Number"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_below="@+id/PullUps"
+            android:text="@string/Fill_PullUps" />
+        <TextView
+            android:id="@+id/Dips"
+            android:padding="3dp"
+            android:background="@drawable/bright_color_text_for_dark_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/Fill_PullUps"
+            android:text="@string/Dips" />
+
+        <EditText
+            android:id="@+id/Fill_Dips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:hint="Enter Number"
+            android:background="@drawable/login_background"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_below="@+id/Dips"
+            android:text="@string/Fill_Dips" />
+
+
+
+        <Button
+            android:id="@+id/PR_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:background="@drawable/bright_color_text_for_dark_background"
+            android:layout_below="@+id/Fill_Dips"
+            android:text="@string/PR_button" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below= "@+id/PR_button"
+                android:padding="3dp"
+                android:background="@drawable/bright_color_text_for_dark_background"
+                android:layout_centerHorizontal="true"
+                android:progress="47"
+                android:id="@+id/PR_ProgressBar"
+                />
+
+            <TextView
+                android:id="@+id/ProgressPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:background="@drawable/bright_color_text_for_dark_background"
+                android:layout_centerHorizontal="true"
+                android:layout_below= "@+id/PR_ProgressBar"
+                android:gravity="center"
+                android:text="@string/ProgressBarPercentage_PR"
+                />
+
+        </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

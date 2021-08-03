@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvancedUserInfo">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/kView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/dumbbells"
+         />
+
+    <TextView
+        android:id="@+id/JumpQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/JumpQuestion"
+        />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/JumpQuestion"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Main_Menu"
+                android:background="@drawable/main_menu_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/Main_Menu"
+                tools:text="Main Menu" />
+
+            <LinearLayout
+                android:id="@+id/Main_MenuLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Main_Menu"
+                >
+
+
+            </LinearLayout>
+
+
+            <Button
+
+                android:id="@+id/Menu_Question0"
+                android:background="@drawable/main_menu_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/Main_MenuLinearLayout"
+                android:text="@string/Question0" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question0LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question0"
+                >
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/Menu_Question1"
+                android:background="@drawable/main_menu_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/Menu_Question0LinearLayout"
+                android:text="@string/Question1" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question1LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question1"
+                >
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Menu_Question2"
+                android:background="@drawable/main_menu_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/Menu_Question1LinearLayout"
+                android:text="@string/Question2" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question2LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question2"
+                >
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Menu_Question3"
+                android:background="@drawable/main_menu_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/Menu_Question2LinearLayout"
+                android:text="@string/Question3" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question3LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question3"
+                >
+
+
+            </LinearLayout>
+
+
+            <Button
+            android:id="@+id/Menu_QuestionNew4"
+            android:background="@drawable/main_menu_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Menu_Question3LinearLayout"
+            android:text="@string/QuestionNew4" />
+
+            <LinearLayout
+                android:id="@+id/Menu_QuestionNew4LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_QuestionNew4"
+                >
+
+
+            </LinearLayout>
+
+
+            <Button
+            android:id="@+id/Menu_Question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Menu_QuestionNew4LinearLayout"
+            android:text="@string/Question4"
+            android:background="@drawable/main_menu_button"
+                />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question4LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question4"
+                >
+
+
+            </LinearLayout>
+
+
+            <Button
+            android:id="@+id/Menu_Question5"
+            android:layout_width="match_parent"
+            android:background="@drawable/main_menu_button"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Menu_Question4LinearLayout"
+            android:text="@string/Question5" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question5LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question5"
+                >
+
+
+            </LinearLayout>
+
+
+            <Button
+            android:id="@+id/Menu_Question6"
+            android:layout_width="match_parent"
+            android:background="@drawable/main_menu_button"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Menu_Question5LinearLayout"
+            android:text="@string/Question6" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question6LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question6"
+                >
+
+
+            </LinearLayout>
+
+
+            <Button
+            android:id="@+id/Menu_Question7"
+            android:background="@drawable/main_menu_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Menu_Question6LinearLayout"
+            android:text="@string/Question7" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question7LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question7"
+                >
+
+
+            </LinearLayout>
+
+
+            <Button
+            android:id="@+id/Menu_Question8"
+                android:background="@drawable/main_menu_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Menu_Question7LinearLayout"
+            android:text="@string/Question8" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question8LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question8"
+                >
+
+
+            </LinearLayout>
+
+
+            <Button
+            android:id="@+id/Menu_Question10"
+            android:layout_width="match_parent"
+                android:background="@drawable/main_menu_button"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Menu_Question8LinearLayout"
+            android:text="@string/Question10" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question9LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question9"
+                >
+
+
+            </LinearLayout>
+
+
+            <Button
+            android:id="@+id/Menu_Question9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:background="@drawable/main_menu_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Menu_Question10LinearLayout"
+            android:text="@string/Question9" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question10LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question10"
+                >
+
+
+            </LinearLayout>
+
+            <Button
+            android:id="@+id/Menu_Question11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+                android:background="@drawable/main_menu_button"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Menu_Question9LinearLayout"
+            android:text="@string/Question11" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question11LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question11"
+                >
+
+
+            </LinearLayout>
+
+            <Button
+            android:id="@+id/Menu_Question12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+                android:background="@drawable/main_menu_button"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Menu_Question11LinearLayout"
+            android:text="@string/Question12" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question12LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question12"
+                >
+
+
+            </LinearLayout>
+
+            <Button
+            android:id="@+id/Menu_Question13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:background="@drawable/main_menu_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Menu_Question12LinearLayout"
+            android:text="@string/Question13" />
+
+            <LinearLayout
+                android:id="@+id/Menu_Question13LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/Menu_Question13"
+                >
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

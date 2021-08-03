@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QAge">
+    <include
+        android:id="@+id/bottombar"
+        layout="@layout/question_defualt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:id="@+id/Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="@string/Fill_Age"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        tools:text="Enter Age" />
+
+    <EditText
+        android:id="@+id/FillAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_above="@+id/Agebutton"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Number (10-119)"
+        android:inputType="number"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:text="@string/Fill_Age" />
+
+    <Button
+        android:id="@+id/Agebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/Age_button" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below= "@+id/Agebutton"
+        android:layout_centerHorizontal="true"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:progress="7"
+        android:id="@+id/Age_ProgressBar"
+        />
+
+    <TextView
+        android:id="@+id/ProgressPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_below= "@+id/Age_ProgressBar"
+        android:gravity="center"
+        android:text="@string/ProgressBarPercentage_Age"
+        />
+
+
+</RelativeLayout>

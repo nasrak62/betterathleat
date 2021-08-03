@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/defualt_question_background"
+    tools:context=".QLikedFoods">
+
+
+    <TextView
+        android:id="@+id/Question13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Question13"
+    />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/Question13"
+        android:id="@+id/ScrollViewForMainFoodsTypes"
+        >
+        <LinearLayout
+            android:id="@+id/LinearLayoutScrollViewForMainFoodsTypes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below= "@+id/ScrollViewForMainFoodsTypes"
+        android:layout_centerHorizontal="true"
+        android:progress="93"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:id="@+id/LikedFoods_ProgressBar"
+        />
+
+    <TextView
+        android:id="@+id/ProgressPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_below= "@+id/LikedFoods_ProgressBar"
+        android:gravity="center"
+        android:text="@string/ProgressBarPercentage_LikedFoods"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/SubmitLikedFoods_button"
+        android:layout_width="match_parent"
+        android:layout_weight = "1"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LinearLayoutForDefaultStack"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:text="@string/SubmitLikedFoods_button" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutForDefaultStack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/Back1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:background="@drawable/bright_color_text_for_dark_background"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Back1"
+           />
+
+        <Button
+            android:id="@+id/Main_Menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:background="@drawable/bright_color_text_for_dark_background"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Main_Menu" />
+
+
+
+        <Button
+            android:id="@+id/Next1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:background="@drawable/bright_color_text_for_dark_background"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:enabled="false"
+            android:text="@string/Next1" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

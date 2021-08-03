@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/defualt_question_background"
+    tools:context=".FoodMenu">
+
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/MenuOverView"
+        android:layout_width="match_parent"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_margin="2dp"
+        android:text="@string/MenuOverView"
+        />
+
+
+
+
+    <ScrollView
+        android:id="@+id/MenuScrollView"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/MenuOverView"
+        android:layout_marginTop="2dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/MenuScrollViewLinearLayout"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/SpacialButtonsLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/MenuScrollView"
+        >
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/Main_Menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/main_menu_button"
+            android:text="@string/Main_Menu"
+            android:gravity="center"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/MenuOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_menu_button"
+            android:layout_centerHorizontal="true"
+            android:text="@string/MenuSpecialOptions"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+

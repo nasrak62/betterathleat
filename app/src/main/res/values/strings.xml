@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">Beyond Power</string>
+    /////////////////Questions And Main Menu Strings//////////////////////////////////
+
+    <string name="ResumeQuestion">Resume From Lasted \nAnswered Question</string>
+    <string name="BasicUserInfo">Basic User Info</string>
+
+
+    <string name="OptionsRelatingUser">Options Relating User</string>
+    <string name="OptionsRelatingProgram">Options Relating Program</string>
+    <string name="OptionsRelatingMenu">Options Relating Menu</string>
+
+
+    <string name="AdvancedUserInfo">Advanced User Info</string>
+    <string name="JumpQuestion">Jump To Desired Question</string>
+
+
+    <string name="MyWorkOutProgram">My Generated Program</string>
+    <string name="MyEatingMenu">My Eating Menu</string>
+    <string name="CreateYourOwnMenu">Create Your Own Menu</string>
+    <string name="AddNewFood">Add New Food</string>
+    <string name="CreateOwnProgram">Create Your Own Program</string>
+    <string name="AddNewExercise">Add New Exercise</string>
+
+
+    <string name="AreYouSure">Are You Sure, You Want To \nDelete Your Previous Information, \nAnd Create New User?</string>
+    <string name="Yes">YES! \nJust Do It</string>
+    <string name="No">NO!!! \nHOLY MOLY</string>
+
+
+    <string name="Question0">Name</string>
+    <string name="Name_button"> Submit Name</string>
+    <string name="Fill_Name"></string>
+    <string name="ProgressBarPercentage_Name">0%</string>
+
+
+    <string name="Question1">Age</string>
+    <string name="Age_button"> Submit Age</string>
+    <string name="Fill_Age"></string>
+    <string name="ProgressBarPercentage_Age">7%</string>
+
+
+    <string name="Temp_Button"> Temp</string>
+    <string name="Next1">Next</string>
+    <string name="Back1">Back</string>
+    <string name="Main_Menu">Main Menu</string>
+    <string name="title_activity_q2">Q2</string>
+    <string name="The_Question" />
+    <string name="Explanation_button"> Explanation</string>
+    <string name="Test"></string>
+
+
+    <string name="Question2">Weight</string>
+    <string name="Lb">Lb</string>
+    <string name="Weight_button"> Submit Weight</string>
+    <string name="Fill_Weight"></string>
+    <string name="Kg">Kg</string>
+    <string name="ProgressBarPercentage_Weight">14%</string>
+
+
+    <string name="Question3">Height</string>
+    <string name="Height_button"> Submit Height</string>
+    <string name="Fill_Height"></string>
+    <string name="Cm">Cm</string>
+    <string name="Ft">Ft</string>
+    <string name="ProgressBarPercentage_Height">20%</string>
+
+
+    <string name="QuestionNew4">Help Type</string>
+    <string name="ProgramAndMenu">I Want A Program And A Menu</string>
+    <string name="ProgramOnly">I Want Only A Program</string>
+    <string name="MenuOnly">I Want Only A Menu</string>
+    <string name="Nothing">I Don\'t Want NADA From You, \nI Am Going To Delete This App.</string>
+    <string name="Help_button"> Submit Help Type</string>
+    <string name="ProgressBarPercentage_Help">27%</string>
+
+
+    <string name="Question4">Goal</string>
+    <string name="Purpose_button"> Submit Goal</string>
+    <string name="GetShraded">Get Shreded</string>
+    <string name="GetLean">Get Leaner \nAnd Lose Some Weight</string>
+    <string name="Re">Recomposition</string>
+    <string name="Mass">Incrase Mass \nWithOut Getting Tons Of Fat</string>
+    <string name="MassMass">Incrase Mass Faster \nAnd More Fat\n(Not Recommended)</string>
+    <string name="Fat">Get Fat Like That \nDBZ Character \n(Don\'t Even Think About It)</string>
+    <string name="Str">Get Stronger</string>
+    <string name="ProgressBarPercentage_Purpose">33%</string>
+
+
+    <string name="Question5">Gym Training Experience</string>
+    <string name="Experience_button"> Submit Experience</string>
+    <string name="NoExp">I Have No Gym \nTraining Experience</string>
+    <string name="OneToSixMonth">I Have Been Training \nFor 1-6 Months</string>
+    <string name="SixMonthToYear">I Have Been Training \nFor 6-12 Months</string>
+    <string name="YeartoTwoYears">I Have Been Training \nFor 1-2 Years</string>
+    <string name="TwoYearsToThreeYears">I Have Been Training \nFor 2-3 Years</string>
+    <string name="MoreThenThreeYears">I Have Been Training \nFor 3+ Years</string>
+    <string name="ProgressBarPercentage_Experience">40%</string>
+
+
+    <string name="Question6">Current Lifting Weight For 5 Reps</string>
+    <string name="BenchPress">Bench Press:</string>
+    <string name="Squat">Squat:</string>
+    <string name="ShoulderPress">Shoulder Press:</string>
+    <string name="Deadlift">Deadlift:</string>
+    <string name="PullUps">Pull Ups:</string>
+    <string name="Dips">Dips:</string>
+    <string name="Fill_BenchPress"></string>
+    <string name="Fill_Squat"></string>
+    <string name="Fill_ShoulderPress"></string>
+    <string name="Fill_Deadlift"></string>
+    <string name="Fill_PullUps"></string>
+    <string name="Fill_Dips"></string>
+    <string name="PR_button">Submit Lifting Weight</string>
+    <string name="ProgressBarPercentage_PR">47%</string>
+
+
+    <string name="Question7">What Is Your Most Frequent Rep Range</string>
+    <string name="OneToThree">1-3</string>
+    <string name="FourToSix"> 4-6</string>
+    <string name="SevenToNine">7-9</string>
+    <string name="TentoTwelve">10-12</string>
+    <string name="MoreThenTwelve">13+</string>
+    <string name="Rep_button">Submit Rep Range</string>
+    <string name="ProgressBarPercentage_Rep">54%</string>
+
+
+    <string name="Question8">Choose Training Style</string>
+    <string name="Style_button">Submit WorkOut Style</string>
+    <string name="FullBody"> Full Body\n(1-4 WorkOuts Per Week)</string>
+    <string name="BroSplit">Bro Split\n(1-7 WorkOuts Per Week)</string>
+    <string name="PushPull">Push Pull\n(1-4 WorkOuts Per Week)</string>
+    <string name="UpperLower">Upper Lower\n(2-5 WorkOuts Per Week)</string>
+    <string name="ProgressBarPercentage_Style">60%</string>
+
+
+    <string name="title_activity_question_menu">ScrollingActivity</string>
+
+
+    <string name="Question10">How Many Programs, \nHave You Done, \nFor At Least 2 Months</string>
+    <string name="ProgramNumber_button"> Submit Number Of Accomplished Programs</string>
+    <string name="Fill_ProgramNumber"></string>
+    <string name="ProgressBarPercentage_ProgramNumber">67%</string>
+
+
+    <string name="Question9">Weight Lifting Days Per Week</string>
+    <string name="OneWorkOutPerWeek">One(Not Recommended)</string>
+    <string name="TwoWorkOutPerWeek">Two</string>
+    <string name="ThreeWorkOutPerWeek">Three</string>
+    <string name="FourWorkOutPerWeek">Four</string>
+    <string name="FiveWorkOutPerWeek">Five</string>
+    <string name="SixWorkOutPerWeek">Six</string>
+    <string name="SevenWorkOutPerWeek">Seven(Not Recommended)</string>
+    <string name="NumberOfWorkouts_button">Submit Number Of Days</string>
+    <string name="ProgressBarPercentage_NumberOfWorkouts">73%</string>
+
+
+    <string name="Question11">What Is Your Motivation Level</string>
+    <string name="Index">Index:</string>
+    <string name="Index_1">0-Motivation Of A Clam</string>
+    <string name="Index_10">10-Motivation For Training, \nHarder Then Arnold Schwarzenegger</string>
+    <string name="Motivation_button"> Submit Motivation Level</string>
+    <string name="Fill_Motivation"></string>
+    <string name="ProgressBarPercentage_Motivation">80%</string>
+
+
+    <string name="Question12">Food Ideology</string>
+    <string name="NoProblem">Eats Every Thing</string>
+    <string name="NoCarbs">Minimize Carbs</string>
+    <string name="NoFats">Minimize Fats</string>
+    <string name="Vegetarian">Vegetarian</string>
+    <string name="Vegan">Vegan</string>
+    <string name="Ideology_button"> Submit Food Ideology</string>
+    <string name="ProgressBarPercentage_Ideology">87%</string>
+
+
+    <string name="Question13">What Foods, \nDo You Like To Eat \n(Scroll Each Category)</string>
+    <string name="SubmitLikedFoods_button"> Submit Foods</string>
+    <string name="ProgressBarPercentage_LikedFoods">93%</string>
+
+    <string name="Finish">Press The Picture, \nAnd Finish!</string>
+    <string name="Finish_button"></string>
+    <string name="ProgressBarPercentage_Finish">100%</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    /////////////////Program strings////////////////////////////////////////////
+
+    ////Days////
+    <string name="Monday">Mon\nday</string>
+    <string name="Tuesday">Tues\nday</string>
+    <string name="Wednesday">Wednes\nday</string>
+    <string name="Thursday">Thurs\nday</string>
+    <string name="Friday">Fri\nday</string>
+    <string name="Saturday">Satur\nday</string>
+    <string name="Sunday">Sun\nday</string>
+
+    ////Activity Per Day////
+    <string name="MondayActivity"></string>
+    <string name="TuesdayActivity"></string>
+    <string name="WednesdayActivity"></string>
+    <string name="ThursdayActivity"></string>
+    <string name="FridayActivity"></string>
+    <string name="SaturdayActivity"></string>
+    <string name="SundayActivity"></string>
+
+    ////ButtonActivity Per Day////
+    <string name="ButtonMondayActivity"></string>
+    <string name="ButtonTuesdayActivity"></string>
+    <string name="ButtonWednesdayActivity"></string>
+    <string name="ButtonThursdayActivity"></string>
+    <string name="ButtonFridayActivity"></string>
+    <string name="ButtonSaturdayActivity"></string>
+    <string name="ButtonSundayActivity"></string>
+
+    ////Title////
+    <string name="ProgramOverView">Program OverView</string>
+
+    ////Program Categories////
+    <string name="WorkOutMuscles"></string>
+    <string name="WorkOutName"></string>
+    <string name="Exercise"></string>
+    <string name="RepsForFisrtSet"></string>
+    <string name="RepsForSecondSet"></string>
+    <string name="ProgramSpecialOptions">Options</string>
+
+    /////Program Options/////
+    <string name="GenerateForProgram">Generate Category</string>
+    <string name="GenerateAllButton">Generate New Exercises And Days</string>
+    <string name="GenerateDaysButton">Generate New Days</string>
+    <string name="GenerateExercisesButton">Generate New Exercises</string>
+    <string name="GoBackToProgramPage">Go Back To The Program Page</string>
+
+
+    //////Own Program//////
+    <string name="CreateNewProgramButton">Create New Program And Delete The Old One</string>
+
+    ////// Add New Exercise/////
+    <string name="CreateNewExercise">Create New Exercise</string>
+    <string name="NewExerciseName">New Exercise Name:</string>
+    <string name="FillNewExerciseName"></string>
+    <string name="NewExerciseType">New Exercise Type:</string>
+    <string name="SpinnerNewExerciseType"></string>
+    <string name="NewMuscleName">New Muscle Name:</string>
+    <string name="FillNewMuscleName"></string>
+    <string name="AddNewExerciseButton">Add New Exercise</string>
+    <string name="DeleteExerciseButton">Delete Exercise</string>
+
+    /////Menu//////
+    <string name="MenuOverView">The Menu</string>
+    <string name="MenuSpecialOptions">Options</string>
+
+
+    /////Meals Menu Options/////
+    <string name="MenuOptions">Menu Options</string>
+    <string name="GoBackToMenuPage">Go Back To The Menu Page</string>
+    <string name="GenerateNewMenuButton">Generate New Menu</string>
+
+
+    /////Add New Food/////
+
+    <string name="CreateNewFood">Create New Food</string>
+    <string name="NewFoodName">Food\'s Name</string>
+    <string name="FillNewFoodName"></string>
+    <string name="FoodType">Food Type</string>
+    <string name="CaloriesPer100Grams">Calories Per 100 Grams</string>
+    <string name="FillCaloriesPer100Grams"></string>
+    <string name="ProtinsPer100Grams">Protins Per 100 Grams</string>
+    <string name="FillProtinsPer100Grams"></string>
+    <string name="CarbsPer100Grams">Carbs Per 100 Grams</string>
+    <string name="FillCarbsPer100Grams"></string>
+    <string name="FatsPer100Grams">Fats Per 100 Grams</string>
+    <string name="FillFatsPer100Grams"></string>
+    <string name="AddNewFoodButton">Add New Food</string>
+    <string name="DeleteFoodButton">Delete Food</string>
+
+    /////Delete Food/////
+    <string name="DeleteFood">Delete Food</string>
+
+
+    /////Own Menu/////
+    <string name="CreateYourMenu">Create Your Menu</string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

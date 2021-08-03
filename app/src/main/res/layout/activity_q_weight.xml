@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QWeight">
+
+    <include
+        android:id="@+id/bottombar"
+        layout="@layout/question_defualt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="3dp"
+            android:background="@drawable/bright_color_text_for_dark_background"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Question2"
+            />
+
+
+
+
+        <RadioGroup
+
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_above="@+id/Fill_Weight"
+            android:background="@drawable/login_background"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/Pound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Lb" />
+
+            <RadioButton
+                android:id="@+id/Kg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Kg" />
+
+
+        </RadioGroup>
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/Fill_Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Weight_button"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:ems="10"
+        android:hint="Weight"
+        android:text="@string/Fill_Weight"
+        android:inputType="numberDecimal"/>
+
+
+    <Button
+        android:id="@+id/Weight_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="3dp"
+        android:background="@drawable/login_background"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Weight_button" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below= "@+id/Weight_button"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:progress="14"
+        android:id="@+id/Weight_ProgressBar"
+        />
+
+    <TextView
+        android:id="@+id/ProgressPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_below= "@+id/Weight_ProgressBar"
+        android:gravity="center"
+        android:text="@string/ProgressBarPercentage_Weight"
+        />
+
+</RelativeLayout>

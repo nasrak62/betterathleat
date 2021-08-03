@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserRelatedLayout1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/OptionsRelatingUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/main_menu_text"
+            android:layout_centerHorizontal="true"
+            android:text="@string/OptionsRelatingUser"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/UserRelatedLayout2"
+
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/AdvancedUserInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/main_menu_button"
+                android:gravity="center"
+                android:text="@string/AdvancedUserInfo" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ProgramRelatedLayout1"
+        android:layout_below="@+id/UserRelatedLayout1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/OptionsRelatingProgram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/main_menu_text"
+            android:text="@string/OptionsRelatingProgram"
+            />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ProgramRelatedLayout2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/MyWorkOutProgram"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/main_menu_button"
+                android:text="@string/MyWorkOutProgram" />
+
+            <Button
+                android:id="@+id/CreateOwnProgram"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/main_menu_button"
+                android:gravity="center"
+                android:text="@string/CreateOwnProgram"
+                />
+
+            <Button
+                android:id="@+id/AddNewExercise"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/main_menu_button"
+                android:text="@string/AddNewExercise"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MenuRelatedLayout1"
+        android:layout_below="@+id/ProgramRelatedLayout1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/OptionsRelatingMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/main_menu_text"
+            android:text="@string/OptionsRelatingMenu"
+            />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/MenuRelatedLayout2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/MyEatingMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/main_menu_button"
+                android:text="@string/MyEatingMenu" />
+            <Button
+                android:id="@+id/CreateYourOwnMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/main_menu_button"
+                android:text="@string/CreateYourOwnMenu" />
+            <Button
+                android:id="@+id/AddNewFood"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/main_menu_button"
+                android:text="@string/AddNewFood" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/Explanation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="2dp"
+        android:background="@drawable/main_menu_button"
+        android:layout_below="@+id/MenuRelatedLayout1"
+        android:text="@string/Explanation_button" />
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/Test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Explanation_button"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:background="@drawable/main_menu_text"
+        android:text="@string/Test"
+        tools:text="test" />
+
+
+
+</RelativeLayout>

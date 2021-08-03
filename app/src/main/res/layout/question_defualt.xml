@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/defualt_question_background"
+    >
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/MenuDefaultLayout"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Back1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_menu_button"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Back1"
+             />
+
+        <Button
+            android:id="@+id/Main_Menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/main_menu_button"
+            android:gravity="center"
+            android:text="@string/Main_Menu"
+             />
+
+        <Button
+            android:id="@+id/Next1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/main_menu_button"
+            android:gravity="center"
+            android:text="@string/Next1"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/Explanation"
+        android:background="@drawable/main_menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/MenuDefaultLayout"
+        android:text="@string/Explanation_button"
+        android:layout_centerHorizontal="true"
+       />
+
+</RelativeLayout>

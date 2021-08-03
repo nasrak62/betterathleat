@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QPastProgramNum">
+    <include
+        android:id="@+id/bottombar"
+        layout="@layout/question_defualt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:id="@+id/Question10"
+        android:layout_width="match_parent"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Question10"
+        />
+
+    <EditText
+        android:id="@+id/Fill_ProgramNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Question10"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:gravity="center"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:inputType="number"
+        android:text="@string/Fill_ProgramNumber" />
+
+    <Button
+        android:id="@+id/ProgramNumber_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_below="@+id/Fill_ProgramNumber"
+        android:layout_marginTop="50dp"
+        android:text="@string/ProgramNumber_button" />
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_below= "@+id/ProgramNumber_button"
+        android:layout_centerHorizontal="true"
+        android:progress="67"
+        android:id="@+id/ProgramNumber_ProgressBar"
+        />
+
+    <TextView
+        android:id="@+id/ProgressPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/bright_color_text_for_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_below= "@+id/ProgramNumber_ProgressBar"
+        android:gravity="center"
+        android:text="@string/ProgressBarPercentage_ProgramNumber"
+        />
+
+</RelativeLayout>
